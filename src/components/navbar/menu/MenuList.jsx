@@ -13,13 +13,6 @@ const MenuList = ({toggleSidebar,theme}) => {
             className={`absolute group-hover:rounded-2xl left-1/2 -bottom-2 w-0 h-0.5 ${theme==='dark' ? 'bg-white' : 'bg-black'} transform transition-all duration-500 group-hover:w-full group-hover:left-0 group-hover:right-auto group-hover:h-1 group-hover:translate-x-0`}></span>
             </Link>
           </li>
-          {/* <li>
-            <Link onClick={toggleSidebar} to={"/experience"} className="relative group">
-              Experience
-              <span
-            className={`absolute group-hover:rounded-2xl left-1/2 -bottom-2 w-0 h-0.5 ${theme==='dark' ? 'bg-white' : 'bg-black'} transform transition-all duration-500 group-hover:w-full group-hover:left-0 group-hover:right-auto group-hover:h-1 group-hover:translate-x-0`}></span>
-            </Link>
-          </li> */}
           <li>
             <Link onClick={toggleSidebar} to={"/projects"} className="relative group">
               Projects
@@ -34,13 +27,13 @@ const MenuList = ({toggleSidebar,theme}) => {
             className={`absolute group-hover:rounded-2xl left-1/2 -bottom-2 w-0 h-0.5 ${theme==='dark' ? 'bg-white' : 'bg-black'} transform transition-all duration-500 group-hover:w-full group-hover:left-0 group-hover:right-auto group-hover:h-1 group-hover:translate-x-0`}></span>
             </Link>
           </li>
-          {/* <li>
+          <li>
             <Link onClick={toggleSidebar} to={"/resume"} className="relative group">
               Resume
               <span
             className={`absolute group-hover:rounded-2xl left-1/2 -bottom-2 w-0 h-0.5 ${theme==='dark' ? 'bg-white' : 'bg-black'} transform transition-all duration-500 group-hover:w-full group-hover:left-0 group-hover:right-auto group-hover:h-1 group-hover:translate-x-0`}></span>
             </Link>
-          </li> */}
+          </li>
           <li>
             <Link onClick={toggleSidebar} to={"/contact"} className="relative group">
               Contact
