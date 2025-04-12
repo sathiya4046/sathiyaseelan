@@ -26,7 +26,7 @@ const Home = () => {
                     <h3 className='text-3xl sm:text-4xl lg:text-5xl tracking-widest font-protest'>
                       <Typewriter
                       options={{
-                        strings: ['Full stack developer', 'Frontend developer', 'Backend developer'],
+                        strings: ['Full stack developer', 'Frontend developer', 'Backend developer','Software tester'],
                         autoStart: true,
                         loop: true,
                         cursor:"!"

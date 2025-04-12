@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import pdf from "./Sathiya_resume.pdf";
+import pdf from "./FSD & ST.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
@@ -43,6 +43,10 @@ function Resume() {
       <div className="mb-4">
         <Document file={pdf} className="flex justify-center">
           <Page pageNumber={1} scale={width > 900 ? 1.3 : 0.6} renderTextLayer={false} 
+            renderAnnotationLayer={false}/>
+        </Document>
+        <Document file={pdf} className="flex justify-center">
+          <Page pageNumber={2} scale={width > 900 ? 1.3 : 0.6} renderTextLayer={false} 
             renderAnnotationLayer={false}/>
         </Document>
       </div>
